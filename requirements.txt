@@ -1,0 +1,6 @@
+"pandas\nnumpy\nscikit-learn\nmatplotlib\nseaborn\nnltk\njupyter" 
+
+# Task 5 - Text Classification
+**Candidate Name:** Bathula Sai Teja  
+**Date/Time:** 2025-09-27
+

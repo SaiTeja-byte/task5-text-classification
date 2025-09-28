@@ -1,0 +1,3074 @@
+ Volume in drive C is OS
+ Volume Serial Number is 74B6-7B35
+
+ Directory of C:\old laptop data\task5-text-classification
+
+28-09-2025  10:11    <DIR>          .
+23-09-2025  22:30    <DIR>          ..
+28-09-2025  00:40                86 .gitattributes
+28-09-2025  10:03                20 .gitignore
+27-09-2025  21:57    <DIR>          data
+28-09-2025  10:11                 0 filesizes.txt
+23-09-2025  22:30    <DIR>          models
+27-09-2025  22:50            320839 model_nb.pkl
+27-09-2025  22:50            161141 model_sgd.pkl
+27-09-2025  23:08            321141 model_sgd_weighted.pkl
+27-09-2025  22:24    <DIR>          notebooks
+27-09-2025  23:29               772 predictions.csv
+28-09-2025  00:31              3888 README.md
+28-09-2025  00:06               171 requirements.txt
+28-09-2025  00:15    <DIR>          screenshots
+28-09-2025  00:06               421 split_data.py
+27-09-2025  21:01    <DIR>          src
+27-09-2025  22:50            187218 tfidf_vectorizer.pkl
+27-09-2025  23:08            417231 tfidf_vectorizer_weighted.pkl
+28-09-2025  00:08              4565 train_all_splits.py
+              13 File(s)        1417493 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git
+
+28-09-2025  10:11    <DIR>          ..
+28-09-2025  00:42                44 COMMIT_EDITMSG
+28-09-2025  01:06               392 config
+28-09-2025  00:37                73 description
+28-09-2025  00:42                21 HEAD
+28-09-2025  00:40    <DIR>          hooks
+28-09-2025  00:42             15137 index
+28-09-2025  00:37    <DIR>          info
+28-09-2025  01:06    <DIR>          lfs
+28-09-2025  00:42    <DIR>          logs
+28-09-2025  00:42    <DIR>          objects
+28-09-2025  00:37    <DIR>          refs
+               5 File(s)          15667 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\hooks
+
+28-09-2025  00:40    <DIR>          .
+28-09-2025  00:37               478 applypatch-msg.sample
+28-09-2025  00:37               896 commit-msg.sample
+28-09-2025  00:37              4726 fsmonitor-watchman.sample
+28-09-2025  00:40               360 post-checkout
+28-09-2025  00:40               356 post-commit
+28-09-2025  00:40               354 post-merge
+28-09-2025  00:37               189 post-update.sample
+28-09-2025  00:37               424 pre-applypatch.sample
+28-09-2025  00:37              1649 pre-commit.sample
+28-09-2025  00:37               416 pre-merge-commit.sample
+28-09-2025  00:40               350 pre-push
+28-09-2025  00:37              1374 pre-push.sample
+28-09-2025  00:37              4898 pre-rebase.sample
+28-09-2025  00:37               544 pre-receive.sample
+28-09-2025  00:37              1492 prepare-commit-msg.sample
+28-09-2025  00:37              2783 push-to-checkout.sample
+28-09-2025  00:37              2308 sendemail-validate.sample
+28-09-2025  00:37              3650 update.sample
+              18 File(s)          27247 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\info
+
+28-09-2025  00:37    <DIR>          .
+28-09-2025  00:37               240 exclude
+               1 File(s)            240 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs
+
+28-09-2025  01:06    <DIR>          .
+28-09-2025  01:06    <DIR>          cache
+28-09-2025  00:42    <DIR>          objects
+28-09-2025  00:42    <DIR>          tmp
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\cache
+
+28-09-2025  01:06    <DIR>          .
+28-09-2025  01:06    <DIR>          ..
+28-09-2025  01:06    <DIR>          locks
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\cache\locks
+
+28-09-2025  01:06    <DIR>          .
+28-09-2025  01:06    <DIR>          ..
+28-09-2025  01:06    <DIR>          refs
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\cache\locks\refs
+
+28-09-2025  01:06    <DIR>          .
+28-09-2025  01:06    <DIR>          ..
+28-09-2025  01:06    <DIR>          heads
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\cache\locks\refs\heads
+
+28-09-2025  01:06    <DIR>          .
+28-09-2025  01:06    <DIR>          ..
+28-09-2025  01:06    <DIR>          main
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\cache\locks\refs\heads\main
+
+28-09-2025  01:06    <DIR>          .
+28-09-2025  01:06    <DIR>          ..
+28-09-2025  01:08                24 verifiable
+               1 File(s)             24 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  01:06    <DIR>          ..
+28-09-2025  00:41    <DIR>          01
+28-09-2025  00:42    <DIR>          03
+28-09-2025  00:41    <DIR>          0a
+28-09-2025  00:41    <DIR>          0b
+28-09-2025  00:41    <DIR>          0d
+28-09-2025  00:41    <DIR>          0e
+28-09-2025  00:41    <DIR>          0f
+28-09-2025  00:41    <DIR>          14
+28-09-2025  00:41    <DIR>          15
+28-09-2025  00:41    <DIR>          18
+28-09-2025  00:41    <DIR>          19
+28-09-2025  00:41    <DIR>          1a
+28-09-2025  00:41    <DIR>          1c
+28-09-2025  00:41    <DIR>          1f
+28-09-2025  00:41    <DIR>          23
+28-09-2025  00:41    <DIR>          24
+28-09-2025  00:41    <DIR>          26
+28-09-2025  00:41    <DIR>          2c
+28-09-2025  00:41    <DIR>          2e
+28-09-2025  00:41    <DIR>          31
+28-09-2025  00:41    <DIR>          32
+28-09-2025  00:41    <DIR>          33
+28-09-2025  00:41    <DIR>          39
+28-09-2025  00:41    <DIR>          3b
+28-09-2025  00:41    <DIR>          40
+28-09-2025  00:41    <DIR>          42
+28-09-2025  00:41    <DIR>          45
+28-09-2025  00:41    <DIR>          46
+28-09-2025  00:41    <DIR>          4d
+28-09-2025  00:41    <DIR>          4f
+28-09-2025  00:41    <DIR>          51
+28-09-2025  00:41    <DIR>          53
+28-09-2025  00:41    <DIR>          54
+28-09-2025  00:41    <DIR>          56
+28-09-2025  00:41    <DIR>          58
+28-09-2025  00:41    <DIR>          59
+28-09-2025  00:41    <DIR>          5b
+28-09-2025  00:41    <DIR>          5d
+28-09-2025  00:41    <DIR>          5e
+28-09-2025  00:41    <DIR>          60
+28-09-2025  00:41    <DIR>          65
+28-09-2025  00:41    <DIR>          6c
+28-09-2025  00:41    <DIR>          6f
+28-09-2025  00:41    <DIR>          71
+28-09-2025  00:41    <DIR>          72
+28-09-2025  00:41    <DIR>          73
+28-09-2025  00:41    <DIR>          76
+28-09-2025  00:41    <DIR>          7a
+28-09-2025  00:41    <DIR>          84
+28-09-2025  00:41    <DIR>          87
+28-09-2025  00:41    <DIR>          89
+28-09-2025  00:41    <DIR>          8b
+28-09-2025  00:41    <DIR>          8f
+28-09-2025  00:42    <DIR>          90
+28-09-2025  00:41    <DIR>          91
+28-09-2025  00:41    <DIR>          92
+28-09-2025  00:41    <DIR>          93
+28-09-2025  00:41    <DIR>          95
+28-09-2025  00:41    <DIR>          96
+28-09-2025  00:41    <DIR>          98
+28-09-2025  00:41    <DIR>          9f
+28-09-2025  00:41    <DIR>          a3
+28-09-2025  00:42    <DIR>          a6
+28-09-2025  00:41    <DIR>          a8
+28-09-2025  00:41    <DIR>          a9
+28-09-2025  00:41    <DIR>          af
+28-09-2025  00:41    <DIR>          b1
+28-09-2025  00:41    <DIR>          b2
+28-09-2025  00:41    <DIR>          b3
+28-09-2025  00:41    <DIR>          b4
+28-09-2025  00:41    <DIR>          b9
+28-09-2025  00:42    <DIR>          ba
+28-09-2025  00:41    <DIR>          bd
+28-09-2025  00:41    <DIR>          c1
+28-09-2025  00:41    <DIR>          c2
+28-09-2025  00:42    <DIR>          c5
+28-09-2025  00:41    <DIR>          c6
+28-09-2025  00:42    <DIR>          c9
+28-09-2025  00:41    <DIR>          cb
+28-09-2025  00:41    <DIR>          d1
+28-09-2025  00:41    <DIR>          d2
+28-09-2025  00:41    <DIR>          d3
+28-09-2025  00:41    <DIR>          d4
+28-09-2025  00:41    <DIR>          d6
+28-09-2025  00:41    <DIR>          da
+28-09-2025  00:41    <DIR>          de
+28-09-2025  00:41    <DIR>          df
+28-09-2025  00:41    <DIR>          e0
+28-09-2025  00:41    <DIR>          e5
+28-09-2025  00:41    <DIR>          e7
+28-09-2025  00:42    <DIR>          e8
+28-09-2025  00:41    <DIR>          e9
+28-09-2025  00:41    <DIR>          ea
+28-09-2025  00:41    <DIR>          ee
+28-09-2025  00:42    <DIR>          f0
+28-09-2025  00:41    <DIR>          f1
+28-09-2025  00:41    <DIR>          f2
+28-09-2025  00:41    <DIR>          f3
+28-09-2025  00:41    <DIR>          f5
+28-09-2025  00:41    <DIR>          f7
+28-09-2025  00:41    <DIR>          f8
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\01
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          a5
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\01\a5
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62192976 01a52e08198f69f5e491f3e671f4a6c77530c14ddcfff85987299153ceb3e7e9
+               1 File(s)       62192976 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\03
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42    <DIR>          39
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\03\39
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            161141 03391119c0f5572bdce5a386373932dd1e807232794e3ea958c49ee424db8c3f
+               1 File(s)         161141 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0a
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          ee
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0a\ee
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61978010 0aee5e06cf100a7236e06920b28e38faf4f8389997b8a20e876e7806567a04fa
+               1 File(s)       61978010 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          02
+28-09-2025  00:41    <DIR>          ed
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0b\02
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62651218 0b02f13fc621e72f4a5f1ea1ac1fd9693be2a12434c9ecbfacc9831c2adcb23b
+               1 File(s)       62651218 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0b\ed
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          56040428 0bed6e0cefc8feb0f7b80e687fc2f1cebe8d7e77b7b749cb808ae2aa8da6968c
+               1 File(s)       56040428 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0d
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          36
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0d\36
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62342338 0d36821e702d2a99128d3c6f5b63d64e3f0f0d3bab6c68247c62b83908eea6b3
+               1 File(s)       62342338 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0e
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          1b
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0e\1b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62404012 0e1bee8f93f2788dfd10f11be51f541284885d08406a158c2d1edc4634d331ce
+               1 File(s)       62404012 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          64
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\0f\64
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62403917 0f6485eb614a14286a332d07c7be80752db06fad174013f633d8ec08ccf8d2c2
+               1 File(s)       62403917 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\14
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          ea
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\14\ea
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          53200854 14ead6ea15cf368f59aef84924570953669c2349a45f67f210e101d1b3559566
+               1 File(s)       53200854 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\15
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          06
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\15\06
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          64694314 15064ae607a3df67d432df7eeebb86384b7897c6dbcbb96506d22da59e7fc0b1
+               1 File(s)       64694314 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\18
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          b5
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\18\b5
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          49902864 18b5142eef4e6eede06fe5e1ec823ae2eba18ad457c78ca0da2d29728965a5ce
+               1 File(s)       49902864 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\19
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          31
+28-09-2025  00:41    <DIR>          c5
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\19\31
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62020655 193155360e45fd5006d9726a39137abf2e112083b9bdf93f0e35aa7e8ab8a3d7
+               1 File(s)       62020655 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\19\c5
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62203668 19c582394a69bb234e72c9ed9dabd3628ab6aa4744c893e55e3e6a8725cb2d64
+               1 File(s)       62203668 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\1a
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          2f
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\1a\2f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62257700 1a2f5e078c7a2e30d77e19daf13b99139b927ce4338a1c5e59222eede3749f23
+               1 File(s)       62257700 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\1c
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          37
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\1c\37
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          25634908 1c37cf3326f2fff81a46a170545d88ef03f44e24bfc03209b37ed3213c16bd40
+               1 File(s)       25634908 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\1f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          88
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\1f\88
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61992893 1f888ddc442d37c4fa0586347eac84c2e2e15c9f53427db324d71fc570f46c43
+               1 File(s)       61992893 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\23
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          0d
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\23\0d
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62039263 230d082d9c5792b613be7baa46b71b3ed46f14e63ece057e879a2b7d35f7dbe0
+               1 File(s)       62039263 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\24
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          68
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\24\68
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          65425411 2468fbd3a816880c28d2c1533bf5b8a0d9cfb81c64894946e3e988b5065f6abb
+               1 File(s)       65425411 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\26
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          24
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\26\24
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62226577 2624606717545fcded0136e500e341b90becf513c3a0b6925b8da7cadf0220ef
+               1 File(s)       62226577 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\2c
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          64
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\2c\64
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62397982 2c64f5ad5071e76277604dc24e237108a3f0d1e68460fc4f31d7b95497b9a863
+               1 File(s)       62397982 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\2e
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          e7
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\2e\e7
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61683646 2ee792415e00210103b717293558120e3f95977dce13c51134591c87f845319a
+               1 File(s)       61683646 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\31
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          40
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\31\40
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          56772916 3140528ca65154a3d954483fafb9071e23baf13224811711d5e682f74fa7e7c8
+               1 File(s)       56772916 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\32
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          3b
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\32\3b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61612707 323be0717fe6fc387227ccbe303ac5c95e0b72d023710b2fc4d481039a201cfd
+               1 File(s)       61612707 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\33
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          1f
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\33\1f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62359359 331f7dc42611fb72fb804ad7ddc9528474080641a47bccf68e767f5967e240c4
+               1 File(s)       62359359 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\39
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          8d
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\39\8d
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62962863 398d1e2aceb3d25548f3b80220840497b5ea099fa36d74052b3b5f6583a3d50e
+               1 File(s)       62962863 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\3b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          f8
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\3b\f8
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          63043878 3bf8236630b12ab778995ad6d19016cb897ade6fed7d7e0f96931b75034400ff
+               1 File(s)       63043878 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\40
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          b2
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\40\b2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62301723 40b2785bffcab3f76f6536e3b954f95373db5e37c53df1fcc3ca0473923518e8
+               1 File(s)       62301723 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\42
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          7f
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\42\7f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61785563 427f031f0463dd86147b54edd385c6f1a96156ab8d13a8b6351cff6e39566c99
+               1 File(s)       61785563 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\45
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          59
+28-09-2025  00:41    <DIR>          b1
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\45\59
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62626867 4559d6ab6a41aa7b1e4a131a29cf2dccf4e73a22e94cd42df17a2e1031a35e05
+               1 File(s)       62626867 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\45\b1
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62820013 45b15ef4f7c8f7ce73982bdffeb098ff363ab4ff6b4788eb7cdace61edddc318
+               1 File(s)       62820013 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\46
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          d1
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\46\d1
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          67289218 46d109a56a3146258f6c17d1e93bb4ad036f248baa8487d8deb9ff18a5418b8a
+               1 File(s)       67289218 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\4d
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          e3
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\4d\e3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62757580 4de36ca065544e3abe93c0925a98182731c8c04172e358ca8f3e0c71078494d1
+               1 File(s)       62757580 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\4f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          fb
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\4f\fb
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61815812 4ffba25166db7272b051813d9147a56050108d02ad6108385e92091ef9242c9c
+               1 File(s)       61815812 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\51
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          6f
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\51\6f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61910313 516ff53accc3676d7c4fa78669aee10d4576c9bc83ec515a0efc99c159f1be9f
+               1 File(s)       61910313 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\53
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          bb
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\53\bb
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62200641 53bb6e8fc73d32bbaae6a11a84deb5cb3a13a62158827978be9cb3308ee74270
+               1 File(s)       62200641 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\54
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          8f
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\54\8f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62234625 548f7a1a924a5d501a4ae252bd34696e25f5ee8d993255ce89c6be1f979544f7
+               1 File(s)       62234625 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\56
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          fe
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\56\fe
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62000179 56fe09f28eb313c2d7e224dbf23352738f34a3a0911ad3372f02762397b3bcc7
+               1 File(s)       62000179 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\58
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          15
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\58\15
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62176764 5815366191b5c27776353ce11fcad666e746139a36dd8c2e2c70dcf97de4d4de
+               1 File(s)       62176764 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\59
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          d1
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\59\d1
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62429248 59d12d98d0b1bf7943179964a1238bca31734776699818c59739afd8854c700f
+               1 File(s)       62429248 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\5b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          dc
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\5b\dc
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62020818 5bdc03ff034982561258b1e695d91ca1ba47a888466aca023804fd92d5033879
+               1 File(s)       62020818 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\5d
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          1a
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\5d\1a
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          55759733 5d1ae7b31c879e8f3de904ffa33a54e85a9ff9eac249583bff4ee3e3c35c59ea
+               1 File(s)       55759733 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\5e
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          02
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\5e\02
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62373409 5e024487061ad8faabdc358625c05568f39e7cdf8da70582c6db9843d041e8d4
+               1 File(s)       62373409 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\60
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          05
+28-09-2025  00:41    <DIR>          b3
+28-09-2025  00:41    <DIR>          e6
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\60\05
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62216588 6005365e8111b322403604d2827554e1fe5a39f0575b64a24c41e6c9ed112ad5
+               1 File(s)       62216588 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\60\b3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62063503 60b382e1c15fb581b689a689dedb2c6127bfc901c5036e8c208454461ad469f6
+               1 File(s)       62063503 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\60\e6
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          64881554 60e6bfec09af3cd457a2f172ed881e650b54de4df5af431329747c6da4d6e33e
+               1 File(s)       64881554 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\65
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          b3
+28-09-2025  00:41    <DIR>          fb
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\65\b3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          63178618 65b3b0fc7cd796da7dcc2f507c352dfcf6d9df2d05564653f0cd8c0f4137a288
+               1 File(s)       63178618 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\65\fb
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61930601 65fbad5dd0c17f0d7adacb16c3c28395bf1ec281d08f17f7a79e363b50a76464
+               1 File(s)       61930601 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\6c
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          66
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\6c\66
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62254676 6c66bb73d6247300bdb86da123372d1f7d1b57dacc68528e7e82b57b5b9538cf
+               1 File(s)       62254676 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\6f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          54
+28-09-2025  00:41    <DIR>          90
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\6f\54
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          69110259 6f544965a8782b59c3e2a9776b06b3f7d390759f4ca700350707d6f22d1249df
+               1 File(s)       69110259 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\6f\90
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62592380 6f90341b8c36deb66b42233f15e189bbb0a973c65f880e29d70a325d58c1c833
+               1 File(s)       62592380 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\71
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          6e
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\71\6e
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62474013 716e1695332b196a25384e70fdc858354c0bf1bf3492c2842711331f9fc06195
+               1 File(s)       62474013 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\72
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          75
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\72\75
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62825278 727512a2be2b017f47cac946a8c706cecf5cfc90b0f882bdd713305615b26a61
+               1 File(s)       62825278 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\73
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          ed
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\73\ed
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61687180 73ed3a273dfec49b5d43140b7320c751b106d99ce90e653c098868d27868aff9
+               1 File(s)       61687180 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\76
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          f9
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\76\f9
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61839520 76f9986c0773fde4be5e9f62defe0e036c18fe7e9cd868101c490041a66da16c
+               1 File(s)       61839520 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\7a
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          bb
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\7a\bb
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62341207 7abb06265ae39d465c0bad01b9b6aa10c131d37b0a8ddae0bb57728dc3135f43
+               1 File(s)       62341207 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\84
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          98
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\84\98
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61669344 8498d2313010f8ee47c97e6512b4971872489a9e2e7f5291067bf15129a7100a
+               1 File(s)       61669344 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\87
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          47
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\87\47
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62287293 8747d905ddd4ce8f5284bd58a92633de07fb7345136e65a56f039bb75a8ef9d6
+               1 File(s)       62287293 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\89
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          0b
+28-09-2025  00:41    <DIR>          11
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\89\0b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          57597245 890b5c6b0d4e87d473549a7433b2b00583ec020c55b74bc055f76293bdf144d5
+               1 File(s)       57597245 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\89\11
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62159125 8911166e993fdbb0600874dc19b8aca0fc8772ca418ab7f93104e55223f30322
+               1 File(s)       62159125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\8b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          2d
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\8b\2d
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62856851 8b2df7565034839d8b2c70d42b6d155eea88a3bc8fe3650f0b0a11d9b18329f7
+               1 File(s)       62856851 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\8f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          ed
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\8f\ed
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62548627 8feddcf1264f156ec977c9e6f876912f72254b11a672b6cdcab7cebd9adf6747
+               1 File(s)       62548627 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\90
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42    <DIR>          ba
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\90\ba
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            187218 90baf9bf0b41f4f582c1b02e8c287d337829958e35ef7f42a0752175489ae623
+               1 File(s)         187218 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\91
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          cd
+28-09-2025  00:41    <DIR>          d6
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\91\cd
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62443782 91cd1e48feacd3869237e4edc9503fcf9014846b770adabd26dd635d13c687ab
+               1 File(s)       62443782 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\91\d6
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62302579 91d626200b7fbcb46b44eb4e78244190673f58b971ba467e97c761a2f103ae70
+               1 File(s)       62302579 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\92
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          31
+28-09-2025  00:41    <DIR>          4e
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\92\31
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          66431079 92317a6203c313d7fd6450f5ddf258b48c81171393f964e97b4b2b0914ee031a
+               1 File(s)       66431079 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\92\4e
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          54622475 924e300f73ad4a96e27a2241563b992215d2115cf63a249cf1230243b28213a1
+               1 File(s)       54622475 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\93
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          fd
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\93\fd
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61649579 93fdaf7031b2089d3954c28ca529542fe9dba2ee3c8eb1f2b5439eb9b3d65404
+               1 File(s)       61649579 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\95
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          c2
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\95\c2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62605586 95c2da7cb5580917b241f0c50ce3d4878921223a660f3ebb18c11192ebbf1718
+               1 File(s)       62605586 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\96
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          1b
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\96\1b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62334847 961bd1876b1be360c5ed10f1e0a0ffd3cd77f5bd72834e95bc9157636979e158
+               1 File(s)       62334847 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\98
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          e6
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\98\e6
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61742956 98e6291206c7c46a33d02ce0346d4e80712871425c104b072fcc50602360d57b
+               1 File(s)       61742956 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\9f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          7f
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\9f\7f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62213268 9f7f613a67c5f45bf7acb7ac62d6ad89e301619156454bb54f01499fd323c001
+               1 File(s)       62213268 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\a3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          e3
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\a3\e3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61671622 a3e3d75e44bfb5fc67068fd77274c54f1040d170bafe2e31680b097f8b664523
+               1 File(s)       61671622 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\a6
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42    <DIR>          26
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\a6\26
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            417231 a626244111145dba27dbd34500cb94c6c2091221cb609dc0e8b72799eaa6e53f
+               1 File(s)         417231 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\a8
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          8f
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\a8\8f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62063713 a88f6da837d31ba26d6fb59b716bc5af939a8cf274f4f3ea512c0f98b4315e6b
+               1 File(s)       62063713 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\a9
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          38
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\a9\38
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61983018 a938c1ebe6491d4e8f8594b7e0334bdd55d676a36050437f6fa28803159a42a4
+               1 File(s)       61983018 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\af
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          a5
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\af\a5
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62255024 afa5665002a9f02878e91801fc3ac4de2844fe54e4201fcd353e86fedb295738
+               1 File(s)       62255024 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b1
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          94
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b1\94
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62293564 b194f80c05d9755956a21b36662a6100bf804542226c4fdbaecd986ab649b425
+               1 File(s)       62293564 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          39
+28-09-2025  00:41    <DIR>          98
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b2\39
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61645660 b2393123fb4934722a760acb2b45c6dffe429c4556f5af4c909598acdf6239aa
+               1 File(s)       61645660 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b2\98
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          58638469 b2981c6fe90b12ff86f127ab26715ca09bb593a61f78ac926cc08c067c032ced
+               1 File(s)       58638469 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          71
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b3\71
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62625187 b371ca256a0a3d0888565b3269dbaf0e89db2637e6114bf5727126bf6e33b7c0
+               1 File(s)       62625187 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b4
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          e3
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b4\e3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61935270 b4e35dfe80b80d8d5c5de8d84e5717e8f73fb098fe82b025773ebcf6bf48e73d
+               1 File(s)       61935270 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b9
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          04
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\b9\04
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62602344 b904bf795029337f6cb9a54714705369b8144d5c0caf89842e813170fb572e30
+               1 File(s)       62602344 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\ba
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          25
+28-09-2025  00:42    <DIR>          87
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\ba\25
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41          62215740 ba25e114ddfb5a709e07ce5296ff6e2bbf29cb48c8f195a567c05d93c6714d17
+               1 File(s)       62215740 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\ba\87
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            320839 ba871c5091c59e730e0f63952ae66b644d482e6d07717cf9798e096b1f152150
+               1 File(s)         320839 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\bd
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          7d
+28-09-2025  00:41    <DIR>          b1
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\bd\7d
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          66020046 bd7dd6c677897d4dbffdb910f376ad1f91bd03dcd2c8f9afa5f273cc7cab2379
+               1 File(s)       66020046 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\bd\b1
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61780761 bdb13d5d3100133c47c7b1b956a8f51a69660341c2984ada10899ccbc257594d
+               1 File(s)       61780761 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c1
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          e5
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c1\e5
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          13552728 c1e51fef63ed6f7a9cf19fae3de40e02840a9334cbefa5ed3f5987b2e25079fc
+               1 File(s)       13552728 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          9c
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c2\9c
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          65426584 c29c3cd01374d72e1cb13995d5c3f465e40f466feafc6f477514d041668a41c7
+               1 File(s)       65426584 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c5
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42    <DIR>          ee
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c5\ee
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42        6823310134 c5ee3ef0502ac1871ef61d42cb6dc849807ec710f2825403db7b5e1591bba701
+               1 File(s)     6823310134 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c6
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          b9
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c6\b9
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61320017 c6b9373bbfa1c2b7e67b96a29cb6df5e4bbcab0bfdc55cc613e1b1b6d4adc825
+               1 File(s)       61320017 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c9
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42    <DIR>          0b
+28-09-2025  00:41    <DIR>          ce
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c9\0b
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            321141 c90b5036ac5a9e51b07d63952cf93135d896293f4cb723dfa863d9e64524972f
+               1 File(s)         321141 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\c9\ce
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41          62023733 c9ceba86cacc0bcc5a61d7d29dd2a0802958208032f933ae5bff76fc11616cad
+               1 File(s)       62023733 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\cb
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          d4
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\cb\d4
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62487724 cbd4b413f1811f6b2ccdfc0e714ec7723f8795ed38a28d918df718d7a9f239ce
+               1 File(s)       62487724 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d1
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          cc
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d1\cc
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61887040 d1ccf45e0febb73b32b5a9db716097d39cad7e94bb55694db5c2349b8600c222
+               1 File(s)       61887040 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          95
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d2\95
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61740789 d295ef6eb25d36dc5361df39a90ef188ae77de8f24d959e315fd34e3a1d6bc87
+               1 File(s)       61740789 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          03
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d3\03
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62318847 d3038f74e37c9bdb198b89dbf054bea2970eafd2b07e73b640e700a0b523850e
+               1 File(s)       62318847 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d4
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          05
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d4\05
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62535402 d405c4b32c8dc9517fab1e862ab20df5ad5cc47c15385ddf93232fe43e164ec0
+               1 File(s)       62535402 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d6
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          e0
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\d6\e0
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62261884 d6e025d4673c0e2a9ce6320205cd3cba7b464a097fda7bbf882e6455e7db692a
+               1 File(s)       62261884 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\da
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          19
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\da\19
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61613609 da19177d3ec7e6cabb2514233f5e153535f7df22f5a014a9596655ed0685da65
+               1 File(s)       61613609 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\de
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          69
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\de\69
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62453611 de6946fef6e5a7ac87a97069ddbd0ba0b8bc55ba12a86bed46479a4fce2325ef
+               1 File(s)       62453611 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\df
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          aa
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\df\aa
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62797622 dfaacde256f4e56df20512af4be251ab3df0801ba0ed5c5b8ea3606931c72db7
+               1 File(s)       62797622 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e0
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          23
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e0\23
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62371856 e023e42f8536915517d890904f99dcaba64d9c7dfa5902cebeb48168dba1f4fd
+               1 File(s)       62371856 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e5
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          78
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e5\78
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          64693654 e57854c4ab85662159f199e34f569833f9208aedd5744f55320e6b0d3d152e54
+               1 File(s)       64693654 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e7
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          39
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e7\39
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61826283 e739404c22c8c31893d9787aa0a4a6c510fde2188acf5db6098a7ec43ac562b2
+               1 File(s)       61826283 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e8
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          88
+28-09-2025  00:41    <DIR>          b2
+28-09-2025  00:42    <DIR>          db
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e8\88
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41          62415393 e888c6b00337a0efccd333a7f29028649320bbf786ea0e4b1f7c26632eb0d2bf
+               1 File(s)       62415393 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e8\b2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41          61908015 e8b2fa8bc11283f56c171080104478d58dd22c341ca9cfbbd418f735e4642fb3
+               1 File(s)       61908015 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e8\db
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42          62773570 e8dbc976a29da3651f00d61d221d46d1f09fff08e23c05b9b3c1a4564d7b6a40
+               1 File(s)       62773570 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e9
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          30
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\e9\30
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62220392 e9309a0f7eb5bbb38d999e7947bf5c102a3234399b5ede70ac2db000ecc23efd
+               1 File(s)       62220392 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\ea
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          f2
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\ea\f2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61927530 eaf2e4849b06324c7897f09d4b102d4723159e7c1106e81f1e7afc3daef91f46
+               1 File(s)       61927530 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\ee
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          2e
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\ee\2e
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62319820 ee2e87db2bf2988c1aa9b3133b00d081ca3961411c26519a241971c40863c693
+               1 File(s)       62319820 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f0
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42    <DIR>          c4
+28-09-2025  00:41    <DIR>          d9
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f0\c4
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               772 f0c4c37e95068ee9030556ec1732d06bcc72763dc1653b1a1cc7304640777d06
+               1 File(s)            772 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f0\d9
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41          64567944 f0d99fa8e32f97aa78b1ee299ed529a4eb552cf8a995dbfb43e0b13302ca7080
+               1 File(s)       64567944 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f1
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          32
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f1\32
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62842243 f132f3d6dbd439a5143a0176cbb6112cda19a84d15be6662077bc5248b5b4391
+               1 File(s)       62842243 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          87
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f2\87
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62392025 f2870a2e40e8c358f2b0f4801a2907b89e31d0cd2f2969fdee6ec7978f5980b0
+               1 File(s)       62392025 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          83
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f3\83
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62702720 f3831922f9e6d73076758dd5126ba6e47e774034d4dd5d5e93cfb9d6d1948bdb
+               1 File(s)       62702720 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f5
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          40
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f5\40
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61594647 f5403b2301a75a4e005a6a115a5f5168d388a57f499964f24e86b0b1a7b36727
+               1 File(s)       61594647 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f7
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          be
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f7\be
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          62549803 f7bee899e41305fc54cd7b532487dce708c66e95160692ec14cbdc2eebd0b9cf
+               1 File(s)       62549803 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f8
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41    <DIR>          24
+28-09-2025  00:41    <DIR>          80
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f8\24
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          59562300 f82431d93ff46d31715e74b687fa9077abbf24dc4883e65a209d8ce8a3ffabd7
+               1 File(s)       59562300 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\objects\f8\80
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:41    <DIR>          ..
+28-09-2025  00:41          61842703 f88007cd97f4b5e5b62a4ac76888c7836e6ff1ba94c5314e3a89e8858479b13d
+               1 File(s)       61842703 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\lfs\tmp
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  01:06    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\logs
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42               585 HEAD
+28-09-2025  00:42    <DIR>          refs
+               1 File(s)            585 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\logs\refs
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42    <DIR>          heads
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\logs\refs\heads
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               393 main
+               1 File(s)            393 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:41    <DIR>          00
+28-09-2025  00:41    <DIR>          01
+28-09-2025  00:41    <DIR>          04
+28-09-2025  00:41    <DIR>          05
+28-09-2025  00:42    <DIR>          07
+28-09-2025  00:42    <DIR>          08
+28-09-2025  00:41    <DIR>          0a
+28-09-2025  00:41    <DIR>          0e
+28-09-2025  00:41    <DIR>          11
+28-09-2025  00:42    <DIR>          13
+28-09-2025  00:42    <DIR>          15
+28-09-2025  00:41    <DIR>          17
+28-09-2025  00:41    <DIR>          18
+28-09-2025  00:41    <DIR>          1f
+28-09-2025  00:41    <DIR>          21
+28-09-2025  00:42    <DIR>          22
+28-09-2025  00:42    <DIR>          26
+28-09-2025  00:41    <DIR>          2b
+28-09-2025  00:41    <DIR>          2d
+28-09-2025  00:41    <DIR>          2f
+28-09-2025  00:41    <DIR>          31
+28-09-2025  00:42    <DIR>          33
+28-09-2025  00:42    <DIR>          34
+28-09-2025  00:41    <DIR>          38
+28-09-2025  00:41    <DIR>          39
+28-09-2025  00:41    <DIR>          3a
+28-09-2025  00:41    <DIR>          3b
+28-09-2025  00:42    <DIR>          3c
+28-09-2025  00:42    <DIR>          48
+28-09-2025  00:41    <DIR>          4a
+28-09-2025  00:41    <DIR>          4f
+28-09-2025  00:42    <DIR>          50
+28-09-2025  00:42    <DIR>          51
+28-09-2025  00:41    <DIR>          52
+28-09-2025  00:42    <DIR>          55
+28-09-2025  00:41    <DIR>          59
+28-09-2025  00:41    <DIR>          5b
+28-09-2025  00:42    <DIR>          5c
+28-09-2025  00:41    <DIR>          5d
+28-09-2025  00:42    <DIR>          5f
+28-09-2025  00:41    <DIR>          60
+28-09-2025  00:41    <DIR>          62
+28-09-2025  00:41    <DIR>          63
+28-09-2025  00:41    <DIR>          64
+28-09-2025  00:41    <DIR>          65
+28-09-2025  00:41    <DIR>          68
+28-09-2025  00:41    <DIR>          6a
+28-09-2025  00:42    <DIR>          6c
+28-09-2025  00:42    <DIR>          6d
+28-09-2025  00:42    <DIR>          6e
+28-09-2025  00:42    <DIR>          71
+28-09-2025  00:41    <DIR>          73
+28-09-2025  00:41    <DIR>          75
+28-09-2025  00:41    <DIR>          77
+28-09-2025  00:41    <DIR>          7a
+28-09-2025  00:41    <DIR>          7b
+28-09-2025  00:41    <DIR>          7c
+28-09-2025  00:42    <DIR>          7d
+28-09-2025  00:41    <DIR>          84
+28-09-2025  00:41    <DIR>          8b
+28-09-2025  00:41    <DIR>          8c
+28-09-2025  00:42    <DIR>          8d
+28-09-2025  00:42    <DIR>          8e
+28-09-2025  00:42    <DIR>          91
+28-09-2025  00:41    <DIR>          92
+28-09-2025  00:41    <DIR>          94
+28-09-2025  00:42    <DIR>          9c
+28-09-2025  00:41    <DIR>          a0
+28-09-2025  00:41    <DIR>          a3
+28-09-2025  00:41    <DIR>          a4
+28-09-2025  00:42    <DIR>          a5
+28-09-2025  00:42    <DIR>          a6
+28-09-2025  00:42    <DIR>          a9
+28-09-2025  00:41    <DIR>          ab
+28-09-2025  00:42    <DIR>          ac
+28-09-2025  00:41    <DIR>          ad
+28-09-2025  00:42    <DIR>          ae
+28-09-2025  00:41    <DIR>          af
+28-09-2025  00:41    <DIR>          b0
+28-09-2025  00:42    <DIR>          b1
+28-09-2025  00:41    <DIR>          b2
+28-09-2025  00:41    <DIR>          b3
+28-09-2025  00:41    <DIR>          b4
+28-09-2025  00:41    <DIR>          b6
+28-09-2025  00:41    <DIR>          b8
+28-09-2025  00:41    <DIR>          b9
+28-09-2025  00:41    <DIR>          bb
+28-09-2025  00:41    <DIR>          bc
+28-09-2025  00:41    <DIR>          bd
+28-09-2025  00:41    <DIR>          be
+28-09-2025  00:42    <DIR>          c1
+28-09-2025  00:41    <DIR>          c2
+28-09-2025  00:42    <DIR>          c5
+28-09-2025  00:42    <DIR>          c6
+28-09-2025  00:41    <DIR>          c7
+28-09-2025  00:41    <DIR>          ca
+28-09-2025  00:42    <DIR>          cc
+28-09-2025  00:41    <DIR>          d1
+28-09-2025  00:41    <DIR>          d2
+28-09-2025  00:41    <DIR>          d3
+28-09-2025  00:41    <DIR>          d5
+28-09-2025  00:41    <DIR>          d6
+28-09-2025  00:41    <DIR>          d8
+28-09-2025  00:41    <DIR>          db
+28-09-2025  00:42    <DIR>          dd
+28-09-2025  00:42    <DIR>          de
+28-09-2025  00:41    <DIR>          df
+28-09-2025  00:42    <DIR>          e0
+28-09-2025  00:42    <DIR>          e1
+28-09-2025  00:41    <DIR>          e2
+28-09-2025  00:42    <DIR>          e6
+28-09-2025  00:42    <DIR>          e7
+28-09-2025  00:41    <DIR>          ea
+28-09-2025  00:42    <DIR>          eb
+28-09-2025  00:41    <DIR>          ee
+28-09-2025  00:41    <DIR>          ef
+28-09-2025  00:42    <DIR>          f1
+28-09-2025  00:42    <DIR>          f3
+28-09-2025  00:41    <DIR>          f4
+28-09-2025  00:41    <DIR>          f6
+28-09-2025  00:41    <DIR>          f7
+28-09-2025  00:41    <DIR>          f8
+28-09-2025  00:41    <DIR>          f9
+28-09-2025  00:42    <DIR>          fa
+28-09-2025  00:41    <DIR>          fc
+28-09-2025  00:41    <DIR>          fe
+28-09-2025  00:37    <DIR>          info
+28-09-2025  00:37    <DIR>          pack
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\00
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 70c460edc67a3a85bac62190c8641d3f701eb9
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\01
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 2c5cbe3943c03c554712ad1552b4411d4edc4b
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\04
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 1ddd375c1d23ffcbb0c66cd1a448172a4566b8
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\05
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41              1428 05b0c6ea28d651ec550bc97c8457e1f39cbaf9
+               1 File(s)           1428 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\07
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 5b6d87c076bc3d83ea7dfb627f980c3c56b9a7
+28-09-2025  00:41               125 d4ccbe05f2fcb387440143cbae9f4a73714c86
+28-09-2025  00:42               126 e699b50a8212306e641428bf675fac682bfa03
+               3 File(s)            377 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\08
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            518457 aa5b1920e867a9e7023bfff44de22c859ae7bf
+28-09-2025  00:41               127 e8fbb333cc1e4c356f6c7c329621a1bafcb9ed
+               2 File(s)         518584 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\0a
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 3c5f7db6d257b21b5f67d82cbfea5e1bbbd0c3
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\0e
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 58b2b7a9fec4f74741e24041f5d02a74501732
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\11
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 d820dd42629e777246f541b1588db764386bb0
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\13
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            627702 b86e898831bced4af4200ac388dee58ed6b029
+               1 File(s)         627702 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\15
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42              2070 8d2854efb7bc93c174c9437dceea7379f03736
+               1 File(s)           2070 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\17
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 70a37887fddac215ca0acbe8ee72a554b2a50c
+28-09-2025  00:41               127 d92cd35fed9902744dfca573d7d35ff1916d33
+               2 File(s)            252 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\18
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 93657ec9f56b540c349c345cc5ec8844f133a9
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\1f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 c4dc4c04ab2270fa57b1f6fdaff6d9cc2582eb
+28-09-2025  00:41               126 ce6c4008f88e8db6dc59c99838e2989ef89c86
+               2 File(s)            252 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\21
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 d3124ccae89d93440d2aedc3fad437a4ab50f4
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\22
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               176 45c694182612538eefa942a2781586822fce85
+               1 File(s)            176 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\26
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               570 bc72b3ea7359fc5f52a382784bafda5c6196f1
+               1 File(s)            570 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\2b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 76483e3148316c4b6fb97520199b14f085976d
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\2d
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 7d1c8666033497b0462be4c6ae4ac67664d48d
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\2f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 bdae3352cdd440f43c5c40f8b80a18a72dca56
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\31
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 1f6b980bf64357bed560a04a32b2f3d49a4284
+28-09-2025  00:41               126 5fb2613012d429f2eca0bbe9af66076b581213
+28-09-2025  00:41               126 c0bcd522f62832b0b43cdffa03a46fefc1f5f7
+               3 File(s)            377 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\33
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            641160 bcf8992b8c28941cc40738189ddce83ff860df
+               1 File(s)         641160 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\34
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42             83749 55fe79d19cdabb06a5e84b3100bc24e1e42379
+               1 File(s)          83749 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\38
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 035b2059ed3d905ca8cc707dd6f4147a8d97f0
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\39
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 32544dc1ce0371ddf0918527d8f059a6047e2c
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\3a
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 4ed686222b871822d0c73b37c10dc53435e5ce
+28-09-2025  00:41               124 7e6874cc4c195e02948175f08f0e8967625ec3
+               2 File(s)            249 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\3b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 e55ce59fd18925949ae08631af4a7223bbf561
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\3c
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 46db79a13a0b5fb205bd9cbedf0519b684f23b
+28-09-2025  00:42            684264 a6223fe9a879720edb526cb1d72c84e38a0dfa
+               2 File(s)         684390 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\48
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               153 84eaeab1a29ad1dc49ee0cac769a8e80aa1dbd
+               1 File(s)            153 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\4a
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 52e0bce007bfefc7de1eaa0412821d5f514c95
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\4f
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 9bd4caf1c86c83b42c5cc0e358179b9f204bd0
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\50
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            452312 e144b85b0e03e2a305659cc6a8e0908b0be446
+               1 File(s)         452312 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\51
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 060bd8fe2177b6fff61ca680d56b7fa36fcc52
+28-09-2025  00:42               127 5f8cb6eccbb906b267d349bcb3a71988e71751
+28-09-2025  00:42            473791 cbabc614c797360bb004cd25d88375603b8529
+               3 File(s)         474044 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\52
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               128 cadb4317911279cde412f0e21de88b412f7efe
+               1 File(s)            128 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\55
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               125 351fc8fc52132f30ec6d90f0f1741ce35da540
+28-09-2025  00:41               125 8ca4dd54abc76e023381ac222878a5ce909c6b
+               2 File(s)            250 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\59
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 65ed1f3e781067ef72276419957706f98531ef
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\5b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 94f6efc414c75237d5961cdc301256366426ca
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\5c
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            499045 f9fba2aee8f926f8c41b9e73be7c5a3f6f43a2
+               1 File(s)         499045 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\5d
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 f77f764bf0731e49d02aef23f2c5366416de9c
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\5f
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            786815 8a7c4fcba7603f585f0e5a0c90252e1bf867a6
+               1 File(s)         786815 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\60
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 82bef1fc6bcf9b4a0523744416cb02ce4a4cfe
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\62
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 fcebbbf8431d66686b426625cc936230b7acd4
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\63
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 46e8e8edf1e5831c31562cb78142cd55feb1b2
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\64
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 c25c7b25d43831e2dcdba30f7a8d45b19a8cd3
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\65
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 32f7cc0cf01f3ad1ead48664638f9ecb2df614
+28-09-2025  00:41               126 89816b98baca842fd324ba3e847d68c5cf08c4
+               2 File(s)            252 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\68
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 4ab9f75a33b8e63117e54947fd528e9c14c1cb
+28-09-2025  00:41               126 9784bb537657ead4cc3d8a7b59ddbf393056ce
+               2 File(s)            252 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\6a
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 364e3b17874a96058f7a6a9fc1fb2b118ee952
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\6c
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42              2842 39dad221a3f79dad2c739e2577840e12440e4e
+               1 File(s)           2842 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\6d
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            492198 f092fda19823ab34876da385afd38265bd8816
+               1 File(s)         492198 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\6e
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               123 892e9b307ceb74f9bfdb735ec48ab6aeff8d58
+               1 File(s)            123 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\71
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            480156 09d6c14bb1a08f31f2ddd37445a2f7ab0da4f4
+28-09-2025  00:42            518911 1350f9ef2ac6047ad1a66679e2e206cedcba57
+28-09-2025  00:41               128 3646c57725dac09b74b29f244ad11c8fcd610f
+               3 File(s)         999195 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\73
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 07022fcaa9a187f4b560671b9508b52d43523e
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\75
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 47ccdfe1bea93189e3549e423caf04751ba6f1
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\77
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 c6412cd9e19057f3bba03f00cff667646b4585
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\7a
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 c8c1eb6d3fd792c8ab3f7f1dead6ec64333359
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\7b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41                59 f92caacb1bddc6f27c611ff32d11ea4149feb0
+               1 File(s)             59 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\7c
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 3c00971d73c7ef33da07e71337c30f1a271e6f
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\7d
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               201 ee314831f4551fa44ade3507b65e7b5f454e50
+               1 File(s)            201 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\84
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 8a51c54c31c7800fa7ac68647af655a7b3fc4e
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\8b
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 da500149aa5c119341c608490a20fcc191ff66
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\8c
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 4d32c865adfd7870ed15f709679b615a5bc1b4
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\8d
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42                17 1c8b69c3fce7bea45c73efd06983e3c419a92f
+               1 File(s)             17 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\8e
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               696 26c095bbb954a26f1fc5f47846460d93d816ac
+28-09-2025  00:41               126 7bd755124577a55e4fa1b21337bb3048687c65
+               2 File(s)            822 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\91
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               158 1a51c0415f04f32e5351c344bfeb9aabf49050
+28-09-2025  00:41               126 5980c7a6a4723ba41e634d7dbe0bc4e4c09585
+               2 File(s)            284 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\92
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 dd5634d0a8aa12c20c6f75e68e6bdd820b2c2f
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\94
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 66fe7a0f603e5711fc2fc63bfbff5c5f19a4b0
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\9c
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 96da296844dea41e263b8c09e5b0df25566389
+28-09-2025  00:42            460386 c0610b770fdff4c6da51a7e23498a52f0d7c39
+28-09-2025  00:41               126 d0b33e4f5217deddbb0fbcdd49f5abdae4ba4d
+               3 File(s)         460638 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\a0
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 bca852f7b417de0f175e0febcf6a0fc59a3956
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\a3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 fbe1251d5f7bf9e8a4409156f54f30ecefd2ae
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\a4
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 db94b01f95b864093796dc055313039f9b4049
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\a5
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            522100 521f0e8f713da3c53b03523a43d70b940f9cdd
+28-09-2025  00:41               126 fc28d4db8813494d1c6a52be82ec9af671bad5
+               2 File(s)         522226 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\a6
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            502402 5daf38ab9ea7b0b31959847aba9a34cbd55774
+28-09-2025  00:41               125 80c3e9233ad08e732ec73012651026251e87ae
+               2 File(s)         502527 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\a9
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            522503 f54fc731560cb3408f4d8248900618b2a7a844
+               1 File(s)         522503 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\ab
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 c17e65ee2dd1abdf4f26a40f0d5e653642b87b
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\ac
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42              1488 6c7ef5af3d257b248dd88c622725719940e46c
+               1 File(s)           1488 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\ad
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 3a499d452112d21296d09975b6871244d98dd1
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\ae
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            723616 1e1c32075826b2c9b3ff8639efe441cb33be84
+               1 File(s)         723616 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\af
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 76ab6cc9b64dee8d2133d54db2a0806f8a7783
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\b0
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 7b2047d30665aa921c3200d0dac7687a582d44
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\b1
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               391 0baab919f3fa7088070ebfc7f42efd54f501ed
+               1 File(s)            391 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\b2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 f5a28dfe653b3f6d00435367e86af056d33d94
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\b3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 dbbc2e9bbfe308d7c0bde8606351c6b55c2ecf
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\b4
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 c99517c89fa7a87756f1d9301292963b6cafd0
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\b6
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 c88c54a5f7c53118410a5d8e1208d6ec0773f2
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\b8
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 1f1810b915818f0431b6ddfda96692304f967b
+28-09-2025  00:41               126 8b30868490ad5858841c8cf050157dee6b3fae
+               2 File(s)            253 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\b9
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 aa16fb1242a8ba263ea51d5663c040992f5cf7
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\bb
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 7c8867d9b958b34ff74f93d7f1d1c7cb1f5e0d
+28-09-2025  00:41               126 eb524e4ca66a819c3adf4212dd0fc71d2bef2a
+               2 File(s)            251 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\bc
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 8247ad5831a8e583d86d14364ab808210c852b
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\bd
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 73fe12a5a869b73f178a04086adb165a1b3543
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\be
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 cf1e94bab2771620d4c30789b741321054a072
+28-09-2025  00:41               126 d010b575e3a759196b8da773b1c88147d89dcd
+               2 File(s)            252 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\c1
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 525acae0971e1e544cdc52fd8c1a21ce6fd891
+28-09-2025  00:41               126 a84fcb4a13ff0731c5a35e5ba93866e95e08a1
+28-09-2025  00:42               124 b749431f9553fc77519757b22a6ab2df7499b3
+               3 File(s)            375 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\c2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 fa223087f8dcf3ec4e326908f99831f91174e1
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\c5
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            599001 24761e84a3fc6291c9a60ab984cf7a64bdcc5b
+28-09-2025  00:41               127 a5f7a945085f2fad739f1acb2633a9c61233f0
+               2 File(s)         599128 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\c6
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42             33828 6c34b79ec067ab64f6706f93484e96566f81e0
+28-09-2025  00:42               125 c87b7082a9e9709ed767ec6dea085651b6bd1c
+               2 File(s)          33953 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\c7
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 b4398d40b8708c6a70782b4a1ee4a3090ccd0b
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\ca
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 80541951c5215727b8c01490827479ec2bc3bd
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\cc
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               137 e99134b8f4cdd624e16b417d8fe5c5a3e38518
+               1 File(s)            137 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\d1
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 3eb397dd11bbffed8e3933bf04532fe33a6348
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\d2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 1977cd2484740f52c63f55d0ae92698f259783
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\d3
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 fefe525eb5a74d24fa67dc474b6fd1e89f9957
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\d5
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 074ea09557d4bb4020f5f86062d27b58d99056
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\d6
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 ded89936b4d6b95515e22d47f55ed8adc6006e
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\d8
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 2d8f92daa29174c9ac8122b8414489f80269ea
+               1 File(s)            127 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\db
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 e7590abd31de1d884177a0b4377a855da64179
+28-09-2025  00:41               126 f84a6c226d5c5e8222c972a72267884f1ef146
+               2 File(s)            252 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\dd
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42             68069 e07a43a1777c899a8a795180f782c62d2ab5a3
+28-09-2025  00:41               126 f7d5b3a0b2bcab97675ff32bb7b3bb882ceb68
+               2 File(s)          68195 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\de
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            695885 2dcdb86855f16bc058a24372575ccf8dee2e0f
+28-09-2025  00:41               127 4b6408eacd0977013e86f1ea9bec6213a52e7a
+28-09-2025  00:42               622 dfa1f1629581ace514a7e6060a735dbacdaa8b
+               3 File(s)         696634 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\df
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 ff97ef69cc57102f34cd6dcfc1546fed8ae0de
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\e0
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               124 577d1e53dc50c0dc16413637f6f608699fe07c
+28-09-2025  00:42               124 e06f0635f9f57649ce805c62bfa4e255b058ae
+               2 File(s)            248 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\e1
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            748820 e0446154834d8d0e70e1b9a8e6043326e2e6fa
+               1 File(s)         748820 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\e2
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 5baf94046987c19356ca7e7c27829f12bb399b
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\e6
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42                15 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+               1 File(s)             15 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\e7
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            524382 8fb40bf99c96ee00d33ee7bfd4f6e4d9fa3ec1
+               1 File(s)         524382 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\ea
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 a4e195eea3242284936b9d0dd45c4398fa735d
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\eb
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               285 25c4e392fc057349238f638b8edddb71024e52
+               1 File(s)            285 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\ee
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               127 6dfca4b6a3cd54cc033e3f863d56a8b2b77ff9
+28-09-2025  00:41               126 ad0cc3ee97b5a804d1b12c08e3dbbff09efa83
+               2 File(s)            253 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\ef
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 d1c606fed0e20e7ac8bae963c25ab7d47afb82
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\f1
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42            518615 20db375ebf9bd3ae3188fdb142cf8b84ffc824
+               1 File(s)         518615 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\f3
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               535 60e8c290614d3293b7dbb21141baf2231c38ca
+               1 File(s)            535 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\f4
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 5fc4727b5094a3777f44fba0e18b2109f36878
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\f6
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 90e18c8108553ad2f01e99cb61d09be64dea80
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\f7
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 cc66451e44c926c33404fcebfc326f1d18c678
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\f8
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               125 8356a4ee7755f387f3ee6dc98decc33b915375
+               1 File(s)            125 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\f9
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 1af2e18a5bb91a04339c5fa1289e256fe2dc48
+               1 File(s)            126 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\fa
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:42               109 af0c1cc30ea17e2d2c249979cb2819cc67ce8a
+               1 File(s)            109 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\fc
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               128 c88dcd3cc5d4bdc7c4a1be7003a8f8970d5f7d
+               1 File(s)            128 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\fe
+
+28-09-2025  00:41    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+28-09-2025  00:41               126 5ee2fdaad892dbee247e0ecf1704dfcfef51a3
+28-09-2025  00:41               125 6f2457ffaf1a33f90a4ade9f8692a69f9c7d2a
+               2 File(s)            251 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\info
+
+28-09-2025  00:37    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\objects\pack
+
+28-09-2025  00:37    <DIR>          .
+28-09-2025  00:42    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\refs
+
+28-09-2025  00:37    <DIR>          .
+28-09-2025  00:42    <DIR>          heads
+28-09-2025  00:37    <DIR>          tags
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\refs\heads
+
+28-09-2025  00:42    <DIR>          .
+28-09-2025  00:37    <DIR>          ..
+28-09-2025  00:42                41 main
+               1 File(s)             41 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\.git\refs\tags
+
+28-09-2025  00:37    <DIR>          .
+28-09-2025  00:37    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\data
+
+27-09-2025  21:57    <DIR>          .
+28-09-2025  10:11    <DIR>          ..
+27-09-2025  21:54          64693654 complaints_part_0.csv
+27-09-2025  21:54          65426584 complaints_part_1.csv
+27-09-2025  21:55          62842243 complaints_part_10.csv
+27-09-2025  21:57          49902864 complaints_part_100.csv
+27-09-2025  21:57          53200854 complaints_part_101.csv
+27-09-2025  21:57          54622475 complaints_part_102.csv
+27-09-2025  21:57          56040428 complaints_part_103.csv
+27-09-2025  21:57          56772916 complaints_part_104.csv
+27-09-2025  21:57          58638469 complaints_part_105.csv
+27-09-2025  21:57          59562300 complaints_part_106.csv
+27-09-2025  21:57          61320017 complaints_part_107.csv
+27-09-2025  21:57          57597245 complaints_part_108.csv
+27-09-2025  21:57          25634908 complaints_part_109.csv
+27-09-2025  21:55          63178618 complaints_part_11.csv
+27-09-2025  21:57          13552728 complaints_part_110.csv
+27-09-2025  21:55          62602344 complaints_part_12.csv
+27-09-2025  21:55          62825278 complaints_part_13.csv
+27-09-2025  21:55          62213268 complaints_part_14.csv
+27-09-2025  21:55          62651218 complaints_part_15.csv
+27-09-2025  21:55          62856851 complaints_part_16.csv
+27-09-2025  21:55          62962863 complaints_part_17.csv
+27-09-2025  21:55          62549803 complaints_part_18.csv
+27-09-2025  21:55          62216588 complaints_part_19.csv
+27-09-2025  21:54          66431079 complaints_part_2.csv
+27-09-2025  21:55          62702720 complaints_part_20.csv
+27-09-2025  21:55          62757580 complaints_part_21.csv
+27-09-2025  21:55          62392025 complaints_part_22.csv
+27-09-2025  21:55          62797622 complaints_part_23.csv
+27-09-2025  21:55          62403917 complaints_part_24.csv
+27-09-2025  21:55          62371856 complaints_part_25.csv
+27-09-2025  21:55          63043878 complaints_part_26.csv
+27-09-2025  21:55          62063713 complaints_part_27.csv
+27-09-2025  21:55          61671622 complaints_part_28.csv
+27-09-2025  21:55          62548627 complaints_part_29.csv
+27-09-2025  21:54          64567944 complaints_part_3.csv
+27-09-2025  21:55          62342338 complaints_part_30.csv
+27-09-2025  21:55          62535402 complaints_part_31.csv
+27-09-2025  21:55          62020655 complaints_part_32.csv
+27-09-2025  21:55          62318847 complaints_part_33.csv
+27-09-2025  21:55          62255024 complaints_part_34.csv
+27-09-2025  21:55          62287293 complaints_part_35.csv
+27-09-2025  21:55          62257700 complaints_part_36.csv
+27-09-2025  21:55          62820013 complaints_part_37.csv
+27-09-2025  21:55          62302579 complaints_part_38.csv
+27-09-2025  21:55          62605586 complaints_part_39.csv
+27-09-2025  21:54          69110259 complaints_part_4.csv
+27-09-2025  21:55          62592380 complaints_part_40.csv
+27-09-2025  21:55          62234625 complaints_part_41.csv
+27-09-2025  21:55          62359359 complaints_part_42.csv
+27-09-2025  21:55          62341207 complaints_part_43.csv
+27-09-2025  21:55          62192976 complaints_part_44.csv
+27-09-2025  21:55          62319820 complaints_part_45.csv
+27-09-2025  21:55          61649579 complaints_part_46.csv
+27-09-2025  21:55          61935270 complaints_part_47.csv
+27-09-2025  21:55          61683646 complaints_part_48.csv
+27-09-2025  21:55          62474013 complaints_part_49.csv
+27-09-2025  21:54          67289218 complaints_part_5.csv
+27-09-2025  21:55          62203668 complaints_part_50.csv
+27-09-2025  21:55          62023733 complaints_part_51.csv
+27-09-2025  21:56          61908015 complaints_part_52.csv
+27-09-2025  21:56          62334847 complaints_part_53.csv
+27-09-2025  21:56          62176764 complaints_part_54.csv
+27-09-2025  21:56          62039263 complaints_part_55.csv
+27-09-2025  21:56          62220392 complaints_part_56.csv
+27-09-2025  21:56          62443782 complaints_part_57.csv
+27-09-2025  21:56          62404012 complaints_part_58.csv
+27-09-2025  21:56          62625187 complaints_part_59.csv
+27-09-2025  21:54          66020046 complaints_part_6.csv
+27-09-2025  21:56          62293564 complaints_part_60.csv
+27-09-2025  21:56          61927530 complaints_part_61.csv
+27-09-2025  21:56          62397982 complaints_part_62.csv
+27-09-2025  21:56          61645660 complaints_part_63.csv
+27-09-2025  21:56          61992893 complaints_part_64.csv
+27-09-2025  21:56          61613609 complaints_part_65.csv
+27-09-2025  21:56          62415393 complaints_part_66.csv
+27-09-2025  21:56          61930601 complaints_part_67.csv
+27-09-2025  21:56          61910313 complaints_part_68.csv
+27-09-2025  21:56          61742956 complaints_part_69.csv
+27-09-2025  21:55          65425411 complaints_part_7.csv
+27-09-2025  21:56          61594647 complaints_part_70.csv
+27-09-2025  21:56          61887040 complaints_part_71.csv
+27-09-2025  21:56          62261884 complaints_part_72.csv
+27-09-2025  21:56          62020818 complaints_part_73.csv
+27-09-2025  21:56          62226577 complaints_part_74.csv
+27-09-2025  21:56          61826283 complaints_part_75.csv
+27-09-2025  21:56          62487724 complaints_part_76.csv
+27-09-2025  21:56          62159125 complaints_part_77.csv
+27-09-2025  21:56          61815812 complaints_part_78.csv
+27-09-2025  21:56          62373409 complaints_part_79.csv
+27-09-2025  21:55          64881554 complaints_part_8.csv
+27-09-2025  21:56          61687180 complaints_part_80.csv
+27-09-2025  21:56          62626867 complaints_part_81.csv
+27-09-2025  21:56          62000179 complaints_part_82.csv
+27-09-2025  21:56          62254676 complaints_part_83.csv
+27-09-2025  21:56          62063503 complaints_part_84.csv
+27-09-2025  21:56          61612707 complaints_part_85.csv
+27-09-2025  21:56          61983018 complaints_part_86.csv
+27-09-2025  21:56          62215740 complaints_part_87.csv
+27-09-2025  21:56          62200641 complaints_part_88.csv
+27-09-2025  21:56          61842703 complaints_part_89.csv
+27-09-2025  21:55          64694314 complaints_part_9.csv
+27-09-2025  21:56          61785563 complaints_part_90.csv
+27-09-2025  21:56          62429248 complaints_part_91.csv
+27-09-2025  21:56          61978010 complaints_part_92.csv
+27-09-2025  21:56          61740789 complaints_part_93.csv
+27-09-2025  21:56          62453611 complaints_part_94.csv
+27-09-2025  21:56          62301723 complaints_part_95.csv
+27-09-2025  21:56          61669344 complaints_part_96.csv
+27-09-2025  21:57          61839520 complaints_part_97.csv
+27-09-2025  21:57          61780761 complaints_part_98.csv
+27-09-2025  21:57          55759733 complaints_part_99.csv
+23-09-2025  22:25        6823310134 consumer_complaints.csv
+27-09-2025  21:09          62773570 consumer_complaints_sample.csv
+             113 File(s)    13685778916 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\models
+
+23-09-2025  22:30    <DIR>          .
+28-09-2025  10:11    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\notebooks
+
+27-09-2025  22:24    <DIR>          .
+28-09-2025  10:11    <DIR>          ..
+27-09-2025  23:45            122885 eda.ipynb
+27-09-2025  23:52             97481 Model_Training_Comparison.ipynb
+28-09-2025  00:23              8173 Prediction.ipynb
+27-09-2025  23:59             49566 preprocessing.ipynb
+               4 File(s)         278105 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\screenshots
+
+28-09-2025  00:15    <DIR>          .
+28-09-2025  10:11    <DIR>          ..
+28-09-2025  00:04            489144 create_sample.py.png
+27-09-2025  23:52            568745 Model_training_comparision.ipynb 1.png
+27-09-2025  23:54            563631 Model_training_comparision.ipynb 2.png
+27-09-2025  23:56            555756 Model_training_comparision.ipynb 3.png
+27-09-2025  23:56            549450 Model_training_comparision.ipynb 4.png
+27-09-2025  23:57            526238 Model_training_comparision.ipynb 5.png
+27-09-2025  23:59            571772 preprocessing.ipynb 1.png
+28-09-2025  00:00            576421 preprocessing.ipynb 2.png
+28-09-2025  00:00            566786 preprocessing.ipynb 3.png
+28-09-2025  00:05            721305 preprocessing.py.png
+28-09-2025  00:06            496819 requirements.txt.png
+28-09-2025  00:06            555219 split_data.py.png
+27-09-2025  23:45            673361 task5_eda.ipynb 1.png
+27-09-2025  23:48            730353 task5_eda.ipynb 2.png
+27-09-2025  23:48            694327 task5_eda.ipynb 3.png
+27-09-2025  23:49            598502 task5_eda.ipynb 4.png
+28-09-2025  00:13            738171 task5_prediction.ipynb 2.png
+27-09-2025  23:39            525167 task5_prediction.ipynb.png
+28-09-2025  00:09            837214 train_all_splits.py  2.png
+28-09-2025  00:09            798627 train_all_splits.py  3.png
+28-09-2025  00:08            774911 train_all_splits.py 1.png
+              21 File(s)       13111919 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\src
+
+27-09-2025  21:01    <DIR>          .
+28-09-2025  10:11    <DIR>          ..
+28-09-2025  00:03              1061 create_sample.py
+28-09-2025  00:03               692 preprocessing.py
+23-09-2025  22:52                 0 utils.py
+23-09-2025  22:33                 3 __init__.py
+23-09-2025  22:58    <DIR>          __pycache__
+               4 File(s)           1756 bytes
+
+ Directory of C:\old laptop data\task5-text-classification\src\__pycache__
+
+23-09-2025  22:58    <DIR>          .
+27-09-2025  21:01    <DIR>          ..
+23-09-2025  22:58               916 preprocessing.cpython-310.pyc
+23-09-2025  22:58               153 __init__.cpython-310.pyc
+               2 File(s)           1069 bytes
+
+     Total Files Listed:
+             466 File(s)    27400025811 bytes
+            1110 Dir(s)    511747379200 bytes free
