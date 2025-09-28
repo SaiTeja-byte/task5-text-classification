@@ -145,8 +145,10 @@ Predictions will be saved in **`predictions.csv`**.
 ![Create Sample](screenshots/create_sample.py.png)
 ![Split Data](screenshots/split_data.py.png)
 ![Train Splits 1](screenshots/train_all_splits.py%201.png)
-![Train Splits 2](screenshots/train_all_splits.py%202.png)
-![Train Splits 3](screenshots/train_all_splits.py%203.png)
+![Train Splits 2]("screenshots/train_all_splits.py 2.png")
+![Train Splits 3]("screenshots/train_all_splits.py 3.png")
+
+
 
 ---
 
